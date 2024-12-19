@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #8B1D1D;
+  --primary-dark: #7A1919;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  color: var(--foreground);
+  @apply antialiased;
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
